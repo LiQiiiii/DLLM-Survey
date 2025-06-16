@@ -51,16 +51,11 @@ This repository is for our paper:
 </p>
 
 
-## Updates
-- 2025-04-16: 📝 The survey is now available on [arXiv](https://arxiv.org/abs/****)!
-- 2025-06-17: 🚀 Our dLLM survey Repo is launched!
-
-
 ##
 
-> **What to add your papers to the repo?**
+> **Let us know if we miss your work.**
 >
-> If you want to add your paper or update details like conference info or code URLs, please raise an issue. You can generate the necessary markdown for each paper by filling out `generate_item.py` and running `python generate_item.py`. We greatly appreciate your contributions. Alternatively, you can email me ([Gmail](fscnkucs@gmail.com)) the links to your paper and code, and I will add your paper to the list as soon as possible.
+> If you want to add your paper or update details like conference info or code URLs, please raise an issue. You can generate the necessary markdown for each paper by filling out `generate_item.py` and running `python generate_item.py`. We greatly appreciate your contributions. Alternatively, you can email me ([email](liqi@u.nus.edu)) the links to your paper and code, and I will add your paper to the list as soon as possible.
 
 ---
 <p align="center">
