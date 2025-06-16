@@ -5,7 +5,7 @@
 
 </div>
 
-
+<div align="center">
 ![](https://img.shields.io/github/stars/LiQiiiii/Discrete-Diffusion-Large-Language-Models-Survey?color=yellow)
 ![](https://img.shields.io/github/forks/LiQiiiii/Discrete-Diffusion-Large-Language-Models-Survey?color=lightblue)
 ![](https://img.shields.io/github/last-commit/LiQiiiii/Discrete-Diffusion-Large-Language-Models-Survey?color=green)
