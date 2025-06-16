@@ -14,11 +14,7 @@
 
 </div>
 
-<div align="center">
 
-**[<a href="https://arxiv.org/abs/2504.10903">arXiv</a>]** **[<a href="https://huggingface.co/papers/2504.10903">HuggingFace</a>]** **[<a href="https://x.com/si_feng32704/status/1912378179718901843">X</a>]**
-
-</div>
 
 
 
