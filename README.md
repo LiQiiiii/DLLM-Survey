@@ -44,7 +44,7 @@ This repository is for our paper:
 >
 > 🙋 Please let us know if you find out a mistake or have any suggestions!
 > 
-> 🌟 If you find this resource helpful, please consider to star this repository and cite our [research](#citation)!
+> 🌟 If you find this resource helpful, please consider to star this repository and cite our work using this [format](#citation)!
 
 <p align="center">
 <img src="assets/figure2.svg" width = "95%" alt="" align=center />
