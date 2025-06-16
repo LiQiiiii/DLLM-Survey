@@ -30,15 +30,16 @@ This repository is for our paper:
 > <sup>*</sup>Equal contribution, random order. \
 > <sup>†</sup>Corresponding author: xinchao@nus.edu.sg
 
-<figure align="center">
-  <img src="assets/ar_vs_diff.png" alt="Diagram 2" style="max-width:100%;" />
-  <figcaption>Figure 1. Difference between autoregressive models and discrete diffusion models.</figcaption>
-</figure>
+<p align="center">
+  <img src="assets/ar_vs_diff.png" alt="Diagram 2" style="max-width:100%;" /><br />
+  **Figure 1.** Difference between autoregressive models and discrete diffusion models.
+</p>
 
-<figure align="center">
-  <img src="assets/timeline.png" alt="Diagram 2" style="max-width:100%;" />
-  <figcaption>Figure 2. A timeline of existing dLLMs and dMLLMs in recent years.</figcaption>
-</figure>
+<p align="center">
+  <img src="assets/timeline.png" alt="Diagram 2" style="max-width:100%;" /><br />
+  **Figure 2.** A timeline of existing dLLMs and dMLLMs in recent years.
+</p>
+
 
   
 ---
