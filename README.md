@@ -32,13 +32,14 @@ This repository is for our paper:
 
 <p align="center">
   <img src="assets/ar_vs_diff.png" alt="Diagram 2" style="max-width:100%;" /><br />
-  **Figure 1.** Difference between autoregressive models and discrete diffusion models.
+  <strong>Figure 1. Difference between autoregressive models and discrete diffusion models.</strong>
 </p>
 
 <p align="center">
   <img src="assets/timeline.png" alt="Diagram 2" style="max-width:100%;" /><br />
-  **Figure 2.** A timeline of existing dLLMs and dMLLMs in recent years.
+  <strong>Figure 2. A timeline of existing dLLMs and dMLLMs in recent years.</strong>
 </p>
+
 
 
   
