@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h2><b> [Discrete Diffusion in Large Language and Multimodal Models: A Survey](https://arxiv.org/pdf/2506-13759) </b></h2>
+  <h2><b> Discrete Diffusion in Large Language and Multimodal Models: A Survey </b></h2>
   <h4> An overview of research in discrete diffusion large language and multimodal models</h4>
 
 </div>
