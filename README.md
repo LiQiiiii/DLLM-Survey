@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h2><b> Discrete Diffusion in Large Language and Multimodal Models: A Survey </b></h2>
+  <h2><b> [Discrete Diffusion in Large Language and Multimodal Models: A Survey](https://arxiv.org/pdf/2506-13759) </b></h2>
   <h4> An overview of research in discrete diffusion large language and multimodal models</h4>
 
 </div>
@@ -9,7 +9,7 @@
 
 ![](https://img.shields.io/github/stars/LiQiiiii/DLLM-Survey?color=yellow)
 ![](https://img.shields.io/github/forks/LiQiiiii/DLLM-Survey?color=lightblue)
-<a href="https://arxiv.org/abs/2506.13759" target="_blank"><img src="https://img.shields.io/badge/arXiv-2506.13759-009688.svg" alt="arXiv"></a>
+<a href="https://arxiv.org/pdf/2506.13759" target="_blank"><img src="https://img.shields.io/badge/arXiv-2506.13759-009688.svg" alt="arXiv"></a>
 ![](https://img.shields.io/github/last-commit/LiQiiiii/DLLM-Survey?color=green)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blue)](https://github.com/LiQiiiii/DLLM-Survey/pulls)
 
@@ -22,7 +22,7 @@
 
 This repository is for our paper:
 
-> **[Discrete Diffusion in Large Language and Multimodal Models: A Survey](https://arxiv.org/abs/****)** \
+> **[Discrete Diffusion in Large Language and Multimodal Models: A Survey](https://arxiv.org/pdf/2506-13759)** \
 > [Runpeng Yu*](https://scholar.google.ca/citations?user=sMgjdygAAAAJ&hl=en)<sup>1</sup>, [Qi Li*](https://scholar.google.ca/citations?user=gsV-g2wAAAAJ&hl=en)<sup>1</sup>, [Xinchao Wang](https://scholar.google.ca/citations?user=w69Buq0AAAAJ&hl=en)<sup>†1</sup> \
 > <sup>1</sup>National University of Singapore, Singapore \
 > <sup>*</sup>Equal contribution, random order. \
