@@ -146,7 +146,7 @@ This repository is for our paper:
 | Title & Authors | Introduction | Links |
 |:--|  :----: | :---:|
 |[Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding](https://arxiv.org/abs/2505.16990) <br> Runpeng Yu, Xinyin Ma, Xinchao Wang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16990v2.png"> |[Paper](https://arxiv.org/abs/2505.16990)|[//]: #06/17
-|[LaViDa: A Large Diffusion Language Model for Multimodal Understanding](https://arxiv.org/abs/2505.16839) <br> Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16990v2.png"> |[Paper](https://arxiv.org/abs/2505.16839)|[//]: #06/17
+|[LaViDa: A Large Diffusion Language Model for Multimodal Understanding](https://arxiv.org/abs/2505.16839) <br> Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16839v2.png"> |[Paper](https://arxiv.org/abs/2505.16839)|[//]: #06/17
 |[LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning](https://arxiv.org/abs/2505.16933) <br> Zebin You, Shen Nie, Xiaolu Zhang, Jun Hu, Jun Zhou, Zhiwu Lu, Ji-Rong Wen, Chongxuan Li |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16933v2.png"> |[Paper](https://arxiv.org/abs/2505.16933)|[//]: #06/17
 
 
@@ -169,7 +169,7 @@ This repository is for our paper:
 #### Complementary Masking Technique
 | Title & Authors | Introduction | Links |
 |:--|  :----: | :---:|
-|[LaViDa: A Large Diffusion Language Model for Multimodal Understanding](https://arxiv.org/abs/2505.16839) <br> Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16990v2.png"> |[Paper](https://arxiv.org/abs/2505.16839)|[//]: #06/17
+|[LaViDa: A Large Diffusion Language Model for Multimodal Understanding](https://arxiv.org/abs/2505.16839) <br> Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16839v2.png"> |[Paper](https://arxiv.org/abs/2505.16839)|[//]: #06/17
 
 
 #### Masking Scheduling Technique
@@ -203,7 +203,7 @@ This repository is for our paper:
 | Title & Authors | Introduction | Links |
 |:--|  :----: | :---:|
 |[Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding](https://arxiv.org/abs/2505.16990) <br> Runpeng Yu, Xinyin Ma, Xinchao Wang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16990v2.png"> |[Paper](https://arxiv.org/abs/2505.16990)|[//]: #06/17
-|[LaViDa: A Large Diffusion Language Model for Multimodal Understanding](https://arxiv.org/abs/2505.16839) <br> Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16990v2.png"> |[Paper](https://arxiv.org/abs/2505.16839)|[//]: #06/17
+|[LaViDa: A Large Diffusion Language Model for Multimodal Understanding](https://arxiv.org/abs/2505.16839) <br> Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16839v2.png"> |[Paper](https://arxiv.org/abs/2505.16839)|[//]: #06/17
 |[dKV-Cache: The Cache for Diffusion Language Models](https://arxiv.org/abs/2505.15781) <br> Xinyin Ma, Runpeng Yu, Gongfan Fang, Xinchao Wang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.15781v1.png"> |[Paper](https://arxiv.org/abs/2505.15781)|[//]: #06/17
 |[dLLM-Cache: Accelerating Diffusion Large Language Models with Adaptive Caching](https://arxiv.org/abs/2506.06295) <br> Zhiyuan Liu, Yicun Yang, Yaojie Zhang, Junjie Chen, Chang Zou, Qingyuan Wei, Shaobo Wang, Linfeng Zhang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2506.06295v1.png"> |[Paper](https://arxiv.org/abs/2506.06295)|[//]: #06/17
 
