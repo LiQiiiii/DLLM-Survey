@@ -53,9 +53,9 @@ This repository is for our paper:
 
 ##
 
-> **Let us know if we miss your work.**
+> **To add new papers or models**
 >
-> If you want to add your paper or update details like conference info or code URLs, please raise an issue. You can generate the necessary markdown for each paper by filling out `generate_item.py` and running `python generate_item.py`. We greatly appreciate your contributions. Alternatively, you can emal me (liqi@u.nus.edu) the links to your paper and code, and I will add your paper to the list as soon as possible.
+> If you want to add your paper or update details like conference info or code URLs, please raise an PR. You can generate the necessary markdown for each paper by filling out `generate_item.py` and running `python generate_item.py`. We greatly appreciate your contributions. Alternatively, you can emal me (liqi@u.nus.edu) the links to your paper and code, and I will add your paper to the list as soon as possible.
 
 ---
 <p align="center">
