@@ -10,7 +10,7 @@
 ![](https://img.shields.io/github/stars/LiQiiiii/DLLM-Survey?color=yellow)
 ![](https://img.shields.io/github/forks/LiQiiiii/DLLM-Survey?color=lightblue)
 ![](https://img.shields.io/github/last-commit/LiQiiiii/DLLM-Survey?color=green)
-![](https://img.shields.io/badge/PRs-Welcome-blue)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blue)](https://github.com/LiQiiiii/DLLM-Survey/pulls)
 <a href="https://arxiv.org/abs/2506.13759" target="_blank"><img src="https://img.shields.io/badge/arXiv-2506.13759-009688.svg" alt="arXiv"></a>
 
 </div>
