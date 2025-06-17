@@ -38,21 +38,11 @@ This repository is for our paper:
 </p>
 
 
-
-  
 ---
->
-> 🙋 Please let us know if you find out a mistake or have any suggestions!
-> 
 > 🌟 If you find this resource helpful, please consider to star this repository and cite our [work](#citation)!
 
-<p align="center">
-<img src="assets/figure2.svg" width = "95%" alt="" align=center />
-</p>
-
-
-##
-
+> 🙋 Please let us know if you find out a mistake or have any suggestions!
+> 
 > **To add new papers or models**
 >
 > If you want to add your paper or update details like conference info or code URLs, please raise an PR. You can generate the necessary markdown for each paper by filling out `generate_item.py` and running `python generate_item.py`. We greatly appreciate your contributions. Alternatively, you can emal me (liqi@u.nus.edu) the links to your paper and code, and I will add your paper to the list as soon as possible.
@@ -282,8 +272,6 @@ This repository is for our paper:
 |[PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion](https://arxiv.org/abs/2412.17780) <br> Sophia Tang, Yinuo Zhang, Pranam Chatterjee |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2412.17780v4.png"> |[Paper](https://arxiv.org/abs/2412.17780)|[//]: #06/17
 
 ## Citation
-Citation format comming soon.
-
 ```
 @misc{yu2025discretediffusionlargelanguage,
       title={Discrete Diffusion in Large Language and Multimodal Models: A Survey}, 
