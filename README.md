@@ -284,6 +284,7 @@ This repository is for our paper:
 ## Citation
 Citation format comming soon.
 
+```
 @misc{yu2025discretediffusionlargelanguage,
       title={Discrete Diffusion in Large Language and Multimodal Models: A Survey}, 
       author={Runpeng Yu and Qi Li and Xinchao Wang},
