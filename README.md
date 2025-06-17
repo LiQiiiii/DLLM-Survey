@@ -64,7 +64,7 @@ This repository is for our paper:
   - [Large Diffusion Language Models](#large-diffusion-language-models)
   - [Large Diffusion Multimodal Models](#large-diffusion-multimodal-models)
   - [Large Unified Models](#large-unified-models)
-  - [Training Techniques](#training-techniques)
+- [Training Techniques](#training-techniques)
   - [Initialization Technique](#initialization-technique)
   - [Complementary Masking Technique](#complementary-masking-technique)
   - [Masking Scheduling Technique](#masking-scheduling-technique)
