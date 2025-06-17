@@ -11,7 +11,7 @@
 ![](https://img.shields.io/github/forks/LiQiiiii/Discrete-Diffusion-Large-Language-Models-Survey?color=lightblue)
 ![](https://img.shields.io/github/last-commit/LiQiiiii/Discrete-Diffusion-Large-Language-Models-Survey?color=green)
 ![](https://img.shields.io/badge/PRs-Welcome-blue)
-<a href="https://arxiv.org/abs/2504.10903" target="_blank"><img src="https://img.shields.io/badge/arXiv-****-009688.svg" alt="arXiv"></a>
+<a href="https://arxiv.org/abs/2506.13759" target="_blank"><img src="https://img.shields.io/badge/arXiv-2506.13759-009688.svg" alt="arXiv"></a>
 
 </div>
 
@@ -281,8 +281,17 @@ This repository is for our paper:
 |[DPLM-2: A Multimodal Diffusion Protein Language Model](https://arxiv.org/abs/2410.13782) <br> Xinyou Wang, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, Quanquan Gu |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.13782v1.png"> |[Paper](https://arxiv.org/abs/2410.13782)|[//]: #06/17
 |[PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion](https://arxiv.org/abs/2412.17780) <br> Sophia Tang, Yinuo Zhang, Pranam Chatterjee |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2412.17780v4.png"> |[Paper](https://arxiv.org/abs/2412.17780)|[//]: #06/17
 
-
 ## Citation
 Citation format comming soon.
+
+@misc{yu2025discretediffusionlargelanguage,
+      title={Discrete Diffusion in Large Language and Multimodal Models: A Survey}, 
+      author={Runpeng Yu and Qi Li and Xinchao Wang},
+      year={2025},
+      eprint={2506.13759},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.13759}, 
+}
 
 ```
