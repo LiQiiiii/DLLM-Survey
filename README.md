@@ -10,6 +10,8 @@
 
 <a href="https://arxiv.org/pdf/2506.13759" target="_blank"><img src="https://img.shields.io/badge/arXiv-2506.13759-009688.svg" alt="arXiv"></a>
 
+![](https://img.shields.io/github/stars/LiQiiiii/Discrete-Diffusion-Large-Language-Models-Survey?color=yellow)
+![](https://img.shields.io/github/forks/LiQiiiii/Discrete-Diffusion-Large-Language-Models-Survey?color=lightblue)
 ![](https://img.shields.io/github/last-commit/LiQiiiii/DLLM-Survey?color=green)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blue)](https://github.com/LiQiiiii/DLLM-Survey/pulls)
 
