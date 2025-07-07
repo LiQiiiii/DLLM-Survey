@@ -280,6 +280,7 @@ This repository is for our paper:
 |[DPCL-Diff: The Temporal Knowledge Graph Reasoning based on Graph Node Diffusion Model with Dual-Domain Periodic Contrastive Learning](https://ojs.aaai.org/index.php/AAAI/article/view/33623) <br> Yukun Cao, Lisheng Wang, Luobing Huang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2411.01477v1.png"> |[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/33623)|[//]: #06/17
 |[d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning](https://arxiv.org/abs/2504.12216) <br> Siyan Zhao, Devaansh Gupta, Qinqing Zheng, Aditya Grover |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2504.12216v2.png"> |[Paper](https://arxiv.org/abs/2504.12216)|[//]: #06/17
 |[Beyond autoregression: Discrete diffusion for complex reasoning and planning](https://arxiv.org/abs/2410.14157) <br> Jiacheng Ye, Jiahui Gao, Shansan Gong, Lin Zheng, Xin Jiang, Zhenguo Li, Lingpeng Kong |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.14157v3.png"> |[Paper](https://arxiv.org/abs/2410.14157)|[//]: #07/07
+|[Neurosymbolic diffusion models](https://arxiv.org/abs/2505.13138) <br> Emile van Krieken, Pasquale Minervini, Edoardo Ponti, Antonio Vergari |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.13138v1.png"> |[Paper](https://arxiv.org/abs/2505.13138)|[//]: #07/07
 
 #### Vision and Multimodal 
 | Title & Authors | Introduction | Links |
