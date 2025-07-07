@@ -170,6 +170,7 @@ This repository is for our paper:
 |[DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models](https://arxiv.org/abs/2211.15029) <br> Zhengfu He, Tianxiang Sun, Kuanning Wang, Xuanjing Huang, Xipeng Qiu |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2211.15029v2.png"> |[Paper](https://arxiv.org/abs/2211.15029)|[//]: #06/17
 |[Scaling Diffusion Language Models via Adaptation from Autoregressive Models](https://arxiv.org/abs/2410.17891) <br> Shansan Gong, Shivam Agarwal, Yizhe Zhang, Jiacheng Ye, Lin Zheng, Mukai Li, Chenxin An, Peilin Zhao, Wei Bi, Jiawei Han, Hao Peng, Lingpeng Kong |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.17891v3.png"> |[Paper](https://arxiv.org/abs/2410.17891)|[//]: #06/17
 |[Dream 7b](https://hkunlp.github.io/blog/2025/dream/) <br> Jiacheng Ye*, Zhihui Xie*, Lin Zheng*, Jiahui Gao*, Zirui Wu, Xin Jiang, Zhenguo Li, Lingpeng Kong |<img width="1002" alt="image" src="https://hkunlp.github.io/assets/img/2025-04-02-dream-img/model-1400.webp"> |[Paper](https://hkunlp.github.io/blog/2025/dream/)|[//]: #06/17
+|[Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding](https://arxiv.org/abs/2505.16990) <br> Runpeng Yu, Xinyin Ma, Xinchao Wang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16990v2.png"> |[Paper](https://arxiv.org/abs/2505.16990)|[//]: #06/17
 
 #### Complementary Masking Technique
 | Title & Authors | Introduction | Links |
