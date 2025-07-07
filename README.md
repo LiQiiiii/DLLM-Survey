@@ -92,6 +92,7 @@ This repository is for our paper:
 ### Mathematics
 
 #### Discrete Denoising Diffusion Probabilistic Model
+[🔝 Back to Top](#quick-links)
 | Title & Authors | Introduction | Links |
 |:--|  :----: | :---:|
 |[Deep unsupervised learning using nonequilibrium thermodynamics](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) <br> Sohl-Dickstein, Jascha, Eric Weiss, Niru Maheswaranathan, Surya Ganguli |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/1503.03585v8.png"> |[Paper](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf)|[//]: #06/16
