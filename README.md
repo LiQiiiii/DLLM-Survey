@@ -113,6 +113,9 @@ This repository is for our paper:
 |[Simple and Effective Masked Diffusion Language Models](https://arxiv.org/pdf/2406.07524) <br> Subham Sekhar Sahoo, Marianne Arriola, Yair Schiff, Aaron Gokaslan, Edgar Marroquin, Justin T Chiu, Alexander Rush, Volodymyr Kuleshov |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2406.07524v2.png"> |[Paper](https://arxiv.org/pdf/2406.07524)|[//]: #06/16
 |[Score-based Continuous-time Discrete Diffusion Models](https://arxiv.org/abs/2211.16750) <br> Haoran Sun, Lijun Yu, Bo Dai, Dale Schuurmans, Hanjun Dai |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2211.16750v2.png"> |[Paper](https://arxiv.org/abs/2211.16750)|[//]: #06/17
 |[Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data](https://arxiv.org/abs/2406.03736) <br> Jingyang Ou, Shen Nie, Kaiwen Xue, Fengqi Zhu, Jiacheng Sun, Zhenguo Li, Chongxuan Li |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2406.03736v3.png"> |[Paper](https://arxiv.org/abs/2406.03736)|[//]: #06/17
+|[Target concrete score matching: A holistic framework for discrete diffusion](https://arxiv.org/abs/2504.16431) <br> Ruixiang Zhang, Shuangfei Zhai, Yizhe Zhang, James Thornton, Zijing Ou, Joshua Susskind, Navdeep Jaitly |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2504.16431v1.png"> |[Paper](https://arxiv.org/abs/2504.16431)|[//]: #07/07
+|[Efficient perplexity bound and ratio matching in discrete diffusion language models](https://openreview.net/forum?id=Mri9WIfxSm) <br> Etrit Haxholli, Yeti Z. Gurbuz, Oğul Can, Eli Waxman |<img width="1002" alt="image" src="https://iclr.cc/media/PosterPDFs/ICLR%202025/29916.png?t=1744207216.6464744"> |[Paper](https://openreview.net/forum?id=Mri9WIfxSm)|[//]: #07/07
+
 
 
 ### Representative Model
