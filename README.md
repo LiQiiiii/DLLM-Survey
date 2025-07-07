@@ -186,6 +186,22 @@ This repository is for our paper:
 |[MaskGIT: Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200) <br> Huiwen Chang, Han Zhang, Lu Jiang, Ce Liu, William T. Freeman |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2202.04200v1.png"> |[Paper](https://arxiv.org/abs/2202.04200)|[//]: #06/17
 |[DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models](https://arxiv.org/abs/2211.15029) <br> Zhengfu He, Tianxiang Sun, Kuanning Wang, Xuanjing Huang, Xipeng Qiu |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2211.15029v2.png"> |[Paper](https://arxiv.org/abs/2211.15029)|[//]: #06/17
 
+
+#### Addressing Training-Testing Discrepancy
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
+|[Addressing the Training-Inference Discrepancy in Discrete Diffusion for Text Generation](https://aclanthology.org/2025.coling-main.477/) <br> Masaki Asada, Makoto Miwa |<img width="1002" alt="image" src="https://tse3.mm.bing.net/th/id/OIP.gTC2EHytVcrCj7KPhAwmngHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"> |[Paper](https://aclanthology.org/2025.coling-main.477/)|[//]: #07/07
+
+#### Reweighting Technique
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
+|[Beyond autoregression: Discrete diffusion for complex reasoning and planning](https://arxiv.org/abs/2410.14157) <br> Jiacheng Ye, Jiahui Gao, Shansan Gong, Lin Zheng, Xin Jiang, Zhenguo Li, Lingpeng Kong |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.14157v3.png"> |[Paper](https://arxiv.org/abs/2410.14157)|[//]: #07/07
+
+#### Distillation
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
+|[Distillation of Discrete Diffusion through Dimensional Correlations](https://arxiv.org/abs/2410.08709) <br> Satoshi Hayakawa, Yuhta Takida, Masaaki Imaizumi, Hiromi Wakaki, Yuki Mitsufuji |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.08709v4.png"> |[Paper](https://arxiv.org/abs/2410.08709)|[//]: #07/07
+
 ### Inference Techniques
 
 
