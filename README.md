@@ -184,6 +184,7 @@ This repository is for our paper:
 |[Structured denoising diffusion models in discrete state-spaces](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) <br> Austin, Jacob, Daniel D. Johnson, Jonathan Ho, Daniel Tarlow, Rianne Van Den Berg |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2107.03006v3.png"> |[Paper](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf)|[//]: #06/16
 |[Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution](https://arxiv.org/abs/2310.16834) <br> Aaron Lou, Chenlin Meng, Stefano Ermon |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2310.16834v3.png"> |[Paper](https://arxiv.org/abs/2310.16834)|[//]: #06/17
 |[MaskGIT: Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200) <br> Huiwen Chang, Han Zhang, Lu Jiang, Ce Liu, William T. Freeman |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2202.04200v1.png"> |[Paper](https://arxiv.org/abs/2202.04200)|[//]: #06/17
+|[DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models](https://arxiv.org/abs/2211.15029) <br> Zhengfu He, Tianxiang Sun, Kuanning Wang, Xuanjing Huang, Xipeng Qiu |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2211.15029v2.png"> |[Paper](https://arxiv.org/abs/2211.15029)|[//]: #06/17
 
 ### Inference Techniques
 
