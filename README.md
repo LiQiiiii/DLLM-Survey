@@ -243,6 +243,7 @@ This repository is for our paper:
 |[Scaling up Masked Diffusion Models on Text](https://arxiv.org/abs/2410.18514) <br> Shen Nie, Fengqi Zhu, Chao Du, Tianyu Pang, Qian Liu, Guangtao Zeng, Min Lin, Chongxuan Li |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.18514v3.png"> |[Paper](https://arxiv.org/abs/2410.18514)|[//]: #06/17
 |[CtrlDiff: Boosting Large Diffusion Language Models with Dynamic Block Prediction and Controllable Generation](https://arxiv.org/abs/2505.14455) <br> Chihan Huang, Hao Tang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.14455v1.png"> |[Paper](https://arxiv.org/abs/2505.14455)|[//]: #06/17
 |[TESS 2: A Large-Scale Generalist Diffusion Language Model](https://arxiv.org/abs/2502.13917) <br> Jaesung Tae, Hamish Ivison, Sachin Kumar, Arman Cohan |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2502.13917v2.png"> |[Paper](https://arxiv.org/abs/2502.13917)|[//]: #06/17
+|[Energy-based diffusion language models for text generation](https://arxiv.org/abs/2410.21357) <br> Minkai Xu, Tomas Geffner, Karsten Kreis, Weili Nie, Yilun Xu, Jure Leskovec, Stefano Ermon, Arash Vahdat |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.21357v4.png"> |[Paper](https://arxiv.org/abs/2410.21357)|[//]: #07/07
 
 ### Applications
 
