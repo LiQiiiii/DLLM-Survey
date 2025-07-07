@@ -232,7 +232,7 @@ This repository is for our paper:
 |[LaViDa: A Large Diffusion Language Model for Multimodal Understanding](https://arxiv.org/abs/2505.16839) <br> Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16839v2.png"> |[Paper](https://arxiv.org/abs/2505.16839)|[//]: #06/17
 |[dKV-Cache: The Cache for Diffusion Language Models](https://arxiv.org/abs/2505.15781) <br> Xinyin Ma, Runpeng Yu, Gongfan Fang, Xinchao Wang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.15781v1.png"> |[Paper](https://arxiv.org/abs/2505.15781)|[//]: #06/17
 |[dLLM-Cache: Accelerating Diffusion Large Language Models with Adaptive Caching](https://arxiv.org/abs/2506.06295) <br> Zhiyuan Liu, Yicun Yang, Yaojie Zhang, Junjie Chen, Chang Zou, Qingyuan Wei, Shaobo Wang, Linfeng Zhang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2506.06295v1.png"> |[Paper](https://arxiv.org/abs/2506.06295)|[//]: #06/17
-
+|[Fast-dllm: Training-free acceleration of diffusion llm by enabling kv cache and parallel decoding](https://arxiv.org/abs/2505.22618) <br> Chengyue Wu, Hao Zhang, Shuchen Xue, Zhijian Liu, Shizhe Diao, Ligeng Zhu, Ping Luo, Song Han, Enze Xie |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.22618v3.png"> |[Paper](https://arxiv.org/abs/2505.22618)|[//]: #07/07
 
 
 
