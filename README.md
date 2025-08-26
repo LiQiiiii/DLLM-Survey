@@ -325,14 +325,11 @@ This repository is for our paper:
 
 ## Citation
 ```
-@misc{yu2025discretediffusionlargelanguage,
-      title={Discrete Diffusion in Large Language and Multimodal Models: A Survey}, 
-      author={Runpeng Yu and Qi Li and Xinchao Wang},
-      year={2025},
-      eprint={2506.13759},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2506.13759}, 
+@article{yu2025discrete,
+  title={Discrete Diffusion in Large Language and Multimodal Models: A Survey},
+  author={Yu, Runpeng and Li, Qi and Wang, Xinchao},
+  journal={arXiv preprint arXiv:2506.13759},
+  year={2025}
 }
 
 ```
