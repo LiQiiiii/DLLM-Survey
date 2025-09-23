@@ -85,6 +85,7 @@ This repository is for our paper:
   - [Knowledge and Reasoning](#knowledge-and-reasoning)
   - [Vision and Multimodal](#vision-and-multimodal)
   - [Biological and Drug Discovery](#biological-and-drug-discovery)
+- [Toolkits](#toolkits)
 
 
 
@@ -322,6 +323,10 @@ This repository is for our paper:
 |[GenMol: A Drug Discovery Generalist with Discrete Diffusion](https://arxiv.org/abs/2501.06158) <br> Seul Lee, Karsten Kreis, Srimukh Prasad Veccham, Meng Liu, Danny Reidenbach, Yuxing Peng, Saee Paliwal, Weili Nie, Arash Vahdat |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2501.06158v2.png"> |[Paper](https://arxiv.org/abs/2501.06158)|[//]: #06/17
 |[DPLM-2: A Multimodal Diffusion Protein Language Model](https://arxiv.org/abs/2410.13782) <br> Xinyou Wang, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, Quanquan Gu |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.13782v1.png"> |[Paper](https://arxiv.org/abs/2410.13782)|[//]: #06/17
 |[PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion](https://arxiv.org/abs/2412.17780) <br> Sophia Tang, Yinuo Zhang, Pranam Chatterjee |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2412.17780v4.png"> |[Paper](https://arxiv.org/abs/2412.17780)|[//]: #06/17
+
+### Toolkits
+* Open-dLLM: https://github.com/pengzhangzhi/Open-dLLM
+* dllm-trainer: https://github.com/ZHZisZZ/dllm-trainer/tree/main
 
 ## Citation
 ```
