@@ -58,9 +58,12 @@ This repository is for our paper:
 ### Quick Links
 
 - [Mathematics](#mathematics)
-  - [Discrete Denoising Diffusion Probabilistic Model](#discrete-denoising-diffusion-probabilistic-model)
-  - [Reparameterized Discrete Diffusion Model](#reparameterized-discrete-diffusion-model)
+  - [Discrete Diffusion Model and Transition Matrix](#discrete-diffusion-model-and-transition-matrix)
+  - [Simplified Masked Diffusion Model](#simplified-masked-diffusion-model)
+  - [Continuous Time Discrete Denoising Models](#continuous-time-discrete-denoising-models)
   - [Concrete Score](#concrete-score)
+  - [Reparameterized Discrete Diffusion Model](#reparameterized-discrete-diffusion-model)
+- [Modeling Language Diffusion] (#modeling-language-diffusion)
 - [Representative Model](#representative-model)
   - [Discrete Diffusion Models around 1B](#discrete-diffusion-models-around-1b)
   - [Large Diffusion Language Models](#large-diffusion-language-models)
@@ -70,14 +73,20 @@ This repository is for our paper:
   - [Initialization Technique](#initialization-technique)
   - [Complementary Masking Technique](#complementary-masking-technique)
   - [Masking Scheduling Technique](#masking-scheduling-technique)
-  - [Addressing Training-Testing Discrepancy](#addressing-training-testing-discrepancy)
   - [Reweighting Technique](#reweighting-technique)
   - [Distillation](#distillation)
+  - [Training-Testing Input Discrepancy](#training-testing-input-discrepancy)
 - [Inference Techniques](#inference-techniques)
   - [Unmasking Techniques](#unmasking-techniques)
   - [Remasking Techniques](#remasking-techniques)
   - [Prefilling and Caching Technique](#prefilling-and-caching-technique)
   - [Guidance Technique](#guidance-technique)
+  - [Sampling Technique](#sampling-technique)
+  - [Context Length Extension](#context-length-extension)
+  - [Sparse Computation](#sparse-computation)
+  - [Response Length Control](#response-length-control)
+- [Quantization](#quantization)
+- [Privacy and Safety](#privacy-and-safety)
 - [Applications](#applications)
   - [Text Generation and Style Control](#text-generation-and-style-control)
   - [Text Editing and Summarization](#text-editing-and-summarization)
@@ -89,27 +98,28 @@ This repository is for our paper:
 
 
 
-
 ### Mathematics
 
-#### Discrete Denoising Diffusion Probabilistic Model
+#### Discrete Diffusion Model and Transition Matrix
 [🔝 Back to Top](#quick-links)
 | Title & Authors | Introduction | Links |
 |:--|  :----: | :---:|
 |[Deep unsupervised learning using nonequilibrium thermodynamics](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) <br> Sohl-Dickstein, Jascha, Eric Weiss, Niru Maheswaranathan, Surya Ganguli |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/1503.03585v8.png"> |[Paper](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf)|[//]: #06/16
 |[Structured denoising diffusion models in discrete state-spaces](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) <br> Austin, Jacob, Daniel D. Johnson, Jonathan Ho, Daniel Tarlow, Rianne Van Den Berg |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2107.03006v3.png"> |[Paper](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf)|[//]: #06/16
 |[Argmax flows and multinomial diffusion: Learning categorical distributions](https://proceedings.neurips.cc/paper/2021/file/67d96d458abdef21792e6d8e590244e7-Paper.pdf) <br> Hoogeboom, Emiel, Didrik Nielsen, Priyank Jaini, Patrick Forré, Max Welling |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2102.05379v3.png"> |[Paper](https://proceedings.neurips.cc/paper/2021/file/67d96d458abdef21792e6d8e590244e7-Paper.pdf)|[//]: #06/16
+|[Generalized interpolating discrete diffusion](https://arxiv.org/abs/2503.04482) <br> Dimitri von Rütte, Janis Fluri, Yuhui Ding, Antonio Orvieto, Bernhard Schölkopf, Thomas Hofmann |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2503.04482v2.png"> |[Paper](https://arxiv.org/abs/2503.04482)|[//]: #09/30
 
-#### Reparameterized Discrete Diffusion Model
+
+#### Simplified Masked Diffusion Model
 [🔝 Back to Top](#quick-links)
 | Title & Authors | Introduction | Links |
 |:--|  :----: | :---:|
-|[A Reparameterized Discrete Diffusion Model for Text Generation](https://arxiv.org/pdf/2302.05737) <br> Lin Zheng, Jianbo Yuan, Lei Yu, Lingpeng Kong |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2302.05737v3.png"> |[Paper](https://arxiv.org/pdf/2302.05737)|[//]: #06/16
 |[Simple and Effective Masked Diffusion Language Models](https://arxiv.org/pdf/2406.07524) <br> Subham Sekhar Sahoo, Marianne Arriola, Yair Schiff, Aaron Gokaslan, Edgar Marroquin, Justin T Chiu, Alexander Rush, Volodymyr Kuleshov |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2406.07524v2.png"> |[Paper](https://arxiv.org/pdf/2406.07524)|[//]: #06/16
 |[Simplified and Generalized Masked Diffusion for Discrete Data](https://arxiv.org/abs/2406.04329) <br> Jiaxin Shi, Kehang Han, Zhe Wang, Arnaud Doucet, Michalis K. Titsias |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2406.04329v4.png"> |[Paper](https://arxiv.org/abs/2406.04329)|[//]: #06/17
 
 
-
+#### Continuous Time Discrete Denoising Models
+|[A Continuous Time Framework for Discrete Denoising Models](https://arxiv.org/abs/2205.14987) <br> Andrew Campbell, Joe Benton, Valentin De Bortoli, Tom Rainforth, George Deligiannidis, Arnaud Doucet |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2205.14987v2.png"> |[Paper](https://arxiv.org/abs/2205.14987)|[//]: #09/30
 
 
 #### Concrete Score
@@ -117,11 +127,27 @@ This repository is for our paper:
 | Title & Authors | Introduction | Links |
 |:--|  :----: | :---:|
 |[Concrete Score Matching: Generalized Score Matching for Discrete Data](https://papers.nips.cc/paper_files/paper/2022/file/df04a35d907e894d59d4eab1f92bc87b-Supplemental-Conference.pdf) <br> Chenlin Meng, Kristy Choi, Jiaming Song, Stefano Ermon |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2211.00802v2.png"> |[Paper](https://papers.nips.cc/paper_files/paper/2022/file/df04a35d907e894d59d4eab1f92bc87b-Supplemental-Conference.pdf)|[//]: #06/17
-|[Simple and Effective Masked Diffusion Language Models](https://arxiv.org/pdf/2406.07524) <br> Subham Sekhar Sahoo, Marianne Arriola, Yair Schiff, Aaron Gokaslan, Edgar Marroquin, Justin T Chiu, Alexander Rush, Volodymyr Kuleshov |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2406.07524v2.png"> |[Paper](https://arxiv.org/pdf/2406.07524)|[//]: #06/16
 |[Score-based Continuous-time Discrete Diffusion Models](https://arxiv.org/abs/2211.16750) <br> Haoran Sun, Lijun Yu, Bo Dai, Dale Schuurmans, Hanjun Dai |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2211.16750v2.png"> |[Paper](https://arxiv.org/abs/2211.16750)|[//]: #06/17
 |[Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data](https://arxiv.org/abs/2406.03736) <br> Jingyang Ou, Shen Nie, Kaiwen Xue, Fengqi Zhu, Jiacheng Sun, Zhenguo Li, Chongxuan Li |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2406.03736v3.png"> |[Paper](https://arxiv.org/abs/2406.03736)|[//]: #06/17
 |[Target concrete score matching: A holistic framework for discrete diffusion](https://arxiv.org/abs/2504.16431) <br> Ruixiang Zhang, Shuangfei Zhai, Yizhe Zhang, James Thornton, Zijing Ou, Joshua Susskind, Navdeep Jaitly |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2504.16431v1.png"> |[Paper](https://arxiv.org/abs/2504.16431)|[//]: #07/07
+|[Simple and Effective Masked Diffusion Language Models](https://arxiv.org/pdf/2406.07524) <br> Subham Sekhar Sahoo, Marianne Arriola, Yair Schiff, Aaron Gokaslan, Edgar Marroquin, Justin T Chiu, Alexander Rush, Volodymyr Kuleshov |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2406.07524v2.png"> |[Paper](https://arxiv.org/pdf/2406.07524)|[//]: #06/16
 |[Efficient perplexity bound and ratio matching in discrete diffusion language models](https://openreview.net/forum?id=Mri9WIfxSm) <br> Etrit Haxholli, Yeti Z. Gurbuz, Oğul Can, Eli Waxman |<img width="1002" alt="image" src="https://iclr.cc/media/PosterPDFs/ICLR%202025/29916.png?t=1744207216.6464744"> |[Paper](https://openreview.net/forum?id=Mri9WIfxSm)|[//]: #07/07
+
+
+#### Reparameterized Discrete Diffusion Model
+[🔝 Back to Top](#quick-links)
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
+|[A Reparameterized Discrete Diffusion Model for Text Generation](https://arxiv.org/pdf/2302.05737) <br> Lin Zheng, Jianbo Yuan, Lei Yu, Lingpeng Kong |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2302.05737v3.png"> |[Paper](https://arxiv.org/pdf/2302.05737)|[//]: #06/16
+
+
+
+### Modeling Language Diffusion
+|[Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models](https://arxiv.org/abs/2503.09573) <br> Marianne Arriola, Aaron Gokaslan, Justin T. Chiu, Zhihan Yang, Zhixuan Qi, Jiaqi Han, Subham Sekhar Sahoo, Volodymyr Kuleshov |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2503.09573v3.png"> |[Paper](https://arxiv.org/abs/2503.09573)|[//]: #09/30
+|[Any-Order Flexible Length Masked Diffusion](https://arxiv.org/abs/2509.01025) <br> Jaeyeon Kim, Lee Cheuk-Kit, Carles Domingo-Enrich, Yilun Du, Sham Kakade, Timothy Ngotiaoco, Sitan Chen, Michael Albergo |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2509.01025v2.png"> |[Paper](https://arxiv.org/abs/2509.01025)|[//]: #09/30
+|[Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking](https://arxiv.org/abs/2505.18495) <br> Chen-Hao Chao, Wei-Fang Sun, Hanwen Liang, Chun-Yi Lee, Rahul G. Krishnan |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.18495v1.png"> |[Paper](https://arxiv.org/abs/2505.18495)|[//]: #09/30
+|[Flexible-length Text Infilling for Discrete Diffusion Models](https://arxiv.org/abs/2506.13579v1) <br> Andrew Zhang, Anushka Sivakumar, Chiawei Tang, Chris Thomas |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2506.13579v1.png"> |[Paper](https://arxiv.org/abs/2506.13579v1)|[//]: #09/30
+
 
 
 
@@ -154,7 +180,10 @@ This repository is for our paper:
 |[Dream 7b](https://hkunlp.github.io/blog/2025/dream/) <br> Jiacheng Ye*, Zhihui Xie*, Lin Zheng*, Jiahui Gao*, Zirui Wu, Xin Jiang, Zhenguo Li, Lingpeng Kong |<img width="1002" alt="image" src="https://hkunlp.github.io/assets/img/2025-04-02-dream-img/model-1400.webp"> |[Paper](https://hkunlp.github.io/blog/2025/dream/)|[//]: #06/17
 |[LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models](https://arxiv.org/abs/2505.19223) <br> Fengqi Zhu, Rongzhen Wang, Shen Nie, Xiaolu Zhang, Chunwei Wu, Jun Hu, Jun Zhou, Jianfei Chen, Yankai Lin, Ji-Rong Wen, Chongxuan Li |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.19223v1.png"> |[Paper](https://arxiv.org/abs/2505.19223)|[//]: #06/17
 |[TESS 2: A Large-Scale Generalist Diffusion Language Model](https://arxiv.org/abs/2502.13917) <br> Jaesung Tae, Hamish Ivison, Sachin Kumar, Arman Cohan |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2502.13917v2.png"> |[Paper](https://arxiv.org/abs/2502.13917)|[//]: #06/17
-
+|[DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas](https://hkunlp.github.io/blog/2025/dreamon/) <br> Zirui Wu*, Lin Zheng*, Zhihui Xie, Jiacheng Ye, Jiahui Gao, Yansong Feng, Zhenguo Li, Victoria W., Guorui Zhou , Lingpeng Kong |<img width="1002" alt="image" src="https://github.com/DreamLM/DreamOn/raw/main/figs/code_infilling_dreamon_from_short.gif"> |[Paper](https://hkunlp.github.io/blog/2025/dreamon/)|[//]: #09/30
+|[Dream-Coder 7B: An Open Diffusion Language Model for Code](https://arxiv.org/abs/2509.01142) <br> Zhihui Xie, Jiacheng Ye, Lin Zheng, Jiahui Gao, Jingwei Dong, Zirui Wu, Xueliang Zhao, Shansan Gong, Xin Jiang, Zhenguo Li, Lingpeng Kong |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2509.01142v1.png"> |[Paper](https://arxiv.org/abs/2509.01142)|[//]: #09/30
+|[DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation](https://arxiv.org/abs/2506.20639) <br> Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, Yizhe Zhang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2506.20639v2.png"> |[Paper](https://arxiv.org/abs/2506.20639)|[//]: #09/30
+|[Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference](https://arxiv.org/abs/2508.02193) <br> Yuxuan Song, Zheng Zhang, Cheng Luo, Pengyang Gao, Fan Xia, Hao Luo, Zheng Li, Yuehang Yang, Hongli Yu, Xingwei Qu, Yuwei Fu, Jing Su, Ge Zhang, Wenhao Huang, Mingxuan Wang, Lin Yan, Xiaoying Jia, Jingjing Liu, Wei-Ying Ma, Ya-Qin Zhang, Yonghui Wu, Hao Zhou |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.02193v1.png"> |[Paper](https://arxiv.org/abs/2508.02193)|[//]: #09/30
 
 #### Large Diffusion Multimodal Models
 [🔝 Back to Top](#quick-links)
@@ -163,6 +192,7 @@ This repository is for our paper:
 |[Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding](https://arxiv.org/abs/2505.16990) <br> Runpeng Yu, Xinyin Ma, Xinchao Wang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16990v2.png"> |[Paper](https://arxiv.org/abs/2505.16990)|[//]: #06/17
 |[LaViDa: A Large Diffusion Language Model for Multimodal Understanding](https://arxiv.org/abs/2505.16839) <br> Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16839v2.png"> |[Paper](https://arxiv.org/abs/2505.16839)|[//]: #06/17
 |[LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning](https://arxiv.org/abs/2505.16933) <br> Zebin You, Shen Nie, Xiaolu Zhang, Jun Hu, Jun Zhou, Zhiwu Lu, Ji-Rong Wen, Chongxuan Li |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16933v2.png"> |[Paper](https://arxiv.org/abs/2505.16933)|[//]: #06/17
+
 
 
 #### Large Unified Models
@@ -200,13 +230,6 @@ This repository is for our paper:
 |[MaskGIT: Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200) <br> Huiwen Chang, Han Zhang, Lu Jiang, Ce Liu, William T. Freeman |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2202.04200v1.png"> |[Paper](https://arxiv.org/abs/2202.04200)|[//]: #06/17
 |[DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models](https://arxiv.org/abs/2211.15029) <br> Zhengfu He, Tianxiang Sun, Kuanning Wang, Xuanjing Huang, Xipeng Qiu |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2211.15029v2.png"> |[Paper](https://arxiv.org/abs/2211.15029)|[//]: #06/17
 
-
-#### Addressing Training-Testing Discrepancy
-[🔝 Back to Top](#quick-links)
-| Title & Authors | Introduction | Links |
-|:--|  :----: | :---:|
-|[Addressing the Training-Inference Discrepancy in Discrete Diffusion for Text Generation](https://aclanthology.org/2025.coling-main.477/) <br> Masaki Asada, Makoto Miwa |<img width="1002" alt="image" src="https://tse3.mm.bing.net/th/id/OIP.gTC2EHytVcrCj7KPhAwmngHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"> |[Paper](https://aclanthology.org/2025.coling-main.477/)|[//]: #07/07
-
 #### Reweighting Technique
 [🔝 Back to Top](#quick-links)
 | Title & Authors | Introduction | Links |
@@ -219,6 +242,25 @@ This repository is for our paper:
 |:--|  :----: | :---:|
 |[Distillation of Discrete Diffusion through Dimensional Correlations](https://arxiv.org/abs/2410.08709) <br> Satoshi Hayakawa, Yuhta Takida, Masaaki Imaizumi, Hiromi Wakaki, Yuki Mitsufuji |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.08709v4.png"> |[Paper](https://arxiv.org/abs/2410.08709)|[//]: #07/07
 
+#### Reinforcement Learning
+[🔝 Back to Top](#quick-links)
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
+|[MMaDA: Multimodal Large Diffusion Language Models](https://arxiv.org/abs/2505.15809) <br> Ling Yang, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.15809v1.png"> |[Paper](https://arxiv.org/abs/2505.15809)|[//]: #06/17
+|[LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models](https://arxiv.org/abs/2505.19223) <br> Fengqi Zhu, Rongzhen Wang, Shen Nie, Xiaolu Zhang, Chunwei Wu, Jun Hu, Jun Zhou, Jianfei Chen, Yankai Lin, Ji-Rong Wen, Chongxuan Li |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.19223v1.png"> |[Paper](https://arxiv.org/abs/2505.19223)|[//]: #06/17
+|[Discrete Diffusion Trajectory Alignment via Stepwise Decomposition](https://arxiv.org/abs/2507.04832) <br> Jiaqi Han, Austin Wang, Minkai Xu, Wenda Chu, Meihua Dang, Yisong Yue, Stefano Ermon |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2507.04832v1.png"> |[Paper](https://arxiv.org/abs/2507.04832)|[//]: #10/01
+|[wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models](https://arxiv.org/abs/2507.08838) <br> Xiaohang Tang, Rares Dolga, Sangwoong Yoon, Ilija Bogunovic |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2507.08838v1.png"> |[Paper](https://arxiv.org/abs/2507.08838)|[//]: #10/01
+|[Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models](https://arxiv.org/abs/2505.10446) <br> Zemin Huang, Zhiyang Chen, Zijun Wang, Tiancheng Li, Guo-Jun Qi |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.10446v2.png"> |[Paper](https://arxiv.org/abs/2505.10446)|[//]: #10/01
+
+
+#### Training-Testing Input Discrepancy
+[🔝 Back to Top](#quick-links)
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
+|[Addressing the Training-Inference Discrepancy in Discrete Diffusion for Text Generation](https://aclanthology.org/2025.coling-main.477/) <br> Masaki Asada, Makoto Miwa |<img width="1002" alt="image" src="https://tse3.mm.bing.net/th/id/OIP.gTC2EHytVcrCj7KPhAwmngHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"> |[Paper](https://aclanthology.org/2025.coling-main.477/)|[//]: #07/07
+
+
+
 
 ### Inference Techniques
 
@@ -227,9 +269,13 @@ This repository is for our paper:
 | Title & Authors | Introduction | Links |
 |:--|  :----: | :---:|
 |[Dream 7b](https://hkunlp.github.io/blog/2025/dream/) <br> Jiacheng Ye*, Zhihui Xie*, Lin Zheng*, Jiahui Gao*, Zirui Wu, Xin Jiang, Zhenguo Li, Lingpeng Kong |<img width="1002" alt="image" src="https://hkunlp.github.io/assets/img/2025-04-02-dream-img/model-1400.webp"> |[Paper](https://hkunlp.github.io/blog/2025/dream/)|[//]: #06/17
+|[Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions](https://arxiv.org/abs/2502.06768) <br> Jaeyeon Kim, Kulin Shah, Vasilis Kontonis, Sham Kakade, Sitan Chen |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2502.06768v3.png"> |[Paper](https://arxiv.org/abs/2502.06768)|[//]: #10/01
 |[Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding](https://arxiv.org/abs/2505.16990) <br> Runpeng Yu, Xinyin Ma, Xinchao Wang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16990v2.png"> |[Paper](https://arxiv.org/abs/2505.16990)|[//]: #06/17
 |[LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning](https://arxiv.org/abs/2505.16933) <br> Zebin You, Shen Nie, Xiaolu Zhang, Jun Hu, Jun Zhou, Zhiwu Lu, Ji-Rong Wen, Chongxuan Li |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.16933v2.png"> |[Paper](https://arxiv.org/abs/2505.16933)|[//]: #06/17
 |[Discrete Flow Matching](https://arxiv.org/abs/2407.15595) <br> Itai Gat, Tal Remez, Neta Shaul, Felix Kreuk, Ricky T. Q. Chen, Gabriel Synnaeve, Yossi Adi, Yaron Lipman |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2407.15595v2.png"> |[Paper](https://arxiv.org/abs/2407.15595)|[//]: #06/17
+|[Accelerated Sampling from Masked Diffusion Models via Entropy Bounded Unmasking](https://arxiv.org/abs/2505.24857) <br> Heli Ben-Hamu, Itai Gat, Daniel Severo, Niklas Nolte, Brian Karrer |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.24857v1.png"> |[Paper](https://arxiv.org/abs/2505.24857)|[//]: #10/01
+|[Pc-sampler: Position-aware calibration of decoding bias in masked diffusion models](https://arxiv.org/abs/2508.13021) <br> Pengcheng Huang, Shuhao Liu, Zhenghao Liu, Yukun Yan, Shuo Wang, Zulong Chen, Tong Xiao |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.13021v2.png"> |[Paper](https://arxiv.org/abs/2508.13021)|[//]: #10/01
+|[Plan for Speed--Dilated Scheduling for Masked Diffusion Language Models](https://arxiv.org/abs/2506.19037) <br> Omer Luxembourg, Haim Permuter, Eliya Nachmani |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2506.19037v3.png"> |[Paper](https://arxiv.org/abs/2506.19037)|[//]: #10/01
 
 
 #### Remasking Techniques 
@@ -238,6 +284,7 @@ This repository is for our paper:
 |:--|  :----: | :---:|
 |[Remasking Discrete Diffusion Models with Inference-Time Scaling](https://arxiv.org/abs/2503.00307) <br> Guanghan Wang, Yair Schiff, Subham Sekhar Sahoo, Volodymyr Kuleshov |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2503.00307v2.png"> |[Paper](https://arxiv.org/abs/2503.00307)|[//]: #06/17
 |[Discrete Flow Matching](https://arxiv.org/abs/2407.15595) <br> Itai Gat, Tal Remez, Neta Shaul, Felix Kreuk, Ricky T. Q. Chen, Gabriel Synnaeve, Yossi Adi, Yaron Lipman |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2407.15595v2.png"> |[Paper](https://arxiv.org/abs/2407.15595)|[//]: #06/17
+|[Wide-In, Narrow-Out: Revokable Decoding for Efficient and Effective DLLMs](https://arxiv.org/abs/2507.18578) <br> Feng Hong, Geng Yu, Yushi Ye, Haicheng Huang, Huangjie Zheng, Ya Zhang, Yanfeng Wang, Jiangchao Yao |<img width="1002" alt="image" src="https://arxiv.org/html/2507.18578v2/x2.png"> |[Paper](https://arxiv.org/abs/2507.18578)|[//]: #10/01
 
 
 #### Prefilling and Caching Technique
@@ -261,6 +308,43 @@ This repository is for our paper:
 |[CtrlDiff: Boosting Large Diffusion Language Models with Dynamic Block Prediction and Controllable Generation](https://arxiv.org/abs/2505.14455) <br> Chihan Huang, Hao Tang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.14455v1.png"> |[Paper](https://arxiv.org/abs/2505.14455)|[//]: #06/17
 |[TESS 2: A Large-Scale Generalist Diffusion Language Model](https://arxiv.org/abs/2502.13917) <br> Jaesung Tae, Hamish Ivison, Sachin Kumar, Arman Cohan |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2502.13917v2.png"> |[Paper](https://arxiv.org/abs/2502.13917)|[//]: #06/17
 |[Energy-based diffusion language models for text generation](https://arxiv.org/abs/2410.21357) <br> Minkai Xu, Tomas Geffner, Karsten Kreis, Weili Nie, Yilun Xu, Jure Leskovec, Stefano Ermon, Arash Vahdat |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.21357v4.png"> |[Paper](https://arxiv.org/abs/2410.21357)|[//]: #07/07
+
+
+#### Sampling Technique
+|[Diffusion Language Models Know the Answer Before Decoding](https://arxiv.org/abs/2508.19982) <br> Pengxiang Li, Yefan Zhou, Dilxat Muhtar, Lu Yin, Shilin Yan, Li Shen, Yi Liang, Soroush Vosoughi, Shiwei Liu |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.19982v1.png"> |[Paper](https://arxiv.org/abs/2508.19982)|[//]: #10/01
+|[Thinking Inside the Mask: In-Place Prompting in Diffusion LLMs](https://arxiv.org/abs/2508.10736) <br> Xiangqi Jin, Yuxuan Wang, Yifeng Gao, Zichen Wen, Biqing Qi, Dongrui Liu, Linfeng Zhang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.10736v1.png"> |[Paper](https://arxiv.org/abs/2508.10736)|[//]: #10/01
+|[Inference-Time Scaling of Diffusion Language Models with Particle Gibbs Sampling](https://arxiv.org/abs/2507.08390) <br> Meihua Dang, Jiaqi Han, Minkai Xu, Kai Xu, Akash Srivastava, Stefano Ermon |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2507.08390v1.png"> |[Paper](https://arxiv.org/abs/2507.08390)|[//]: #10/01
+|[Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language Models](https://arxiv.org/abs/2508.09138) <br> Wen Wang, Bozhen Fang, Chenchen Jing, Yongliang Shen, Yangyi Shen, Qiuyu Wang, Hao Ouyang, Hao Chen, Chunhua Shen |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.09138v2.png"> |[Paper](https://arxiv.org/abs/2508.09138)|[//]: #10/01
+
+
+#### Context Length Extension
+|[LongLLaDA: Unlocking Long Context Capabilities in Diffusion LLMs](https://arxiv.org/abs/2506.14429) <br> Xiaoran Liu, Zhigeng Liu, Zengfeng Huang, Qipeng Guo, Ziwei He, Xipeng Qiu |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2506.14429v2.png"> |[Paper](https://arxiv.org/abs/2506.14429)|[//]: #10/01
+
+
+#### Sparse Computation
+|[Sparse-dLLM: Accelerating Diffusion LLMs with Dynamic Cache Eviction](https://arxiv.org/abs/2508.02558) <br> Yuerong Song, Xiaoran Liu, Ruixiao Li, Zhigeng Liu, Zengfeng Huang, Qipeng Guo, Ziwei He, Xipeng Qiu |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.02558v1.png"> |[Paper](https://arxiv.org/abs/2508.02558)|[//]: #10/01
+|[DPad: Efficient Diffusion Language Models with Suffix Dropout](https://arxiv.org/abs/2508.14148) <br> Xinhua Chen, Sitao Huang, Cong Guo, Chiyue Wei, Yintao He, Jianyi Zhang, Hai "Helen" Li, Yiran Chen |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.14148v2.png"> |[Paper](https://arxiv.org/abs/2508.14148)|[//]: #10/01
+|[Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing](https://arxiv.org/abs/2508.09192) <br> Xu Wang, Chenkai Xu, Yijie Jin, Jiachun Jin, Hao Zhang, Zhijie Deng |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.09192v1.png"> |[Paper](https://arxiv.org/abs/2508.09192)|[//]: #10/01
+
+
+#### Response Length Control
+|[Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models](https://arxiv.org/abs/2508.00819) <br> Jinsong Li, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Jiaqi Wang, Dahua Lin |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.00819v2.png"> |[Paper](https://arxiv.org/abs/2508.00819)|[//]: #10/01
+
+
+### Quantization
+[🔝 Back to Top](#quick-links)
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
+|[Quantization Meets dLLMs: A Systematic Study of Post-training Quantization for Diffusion LLMs](https://arxiv.org/abs/2508.14896) <br> Haokun Lin, Haobo Xu, Yichen Wu, Ziyu Guo, Renrui Zhang, Zhichao Lu, Ying Wei, Qingfu Zhang, Zhenan Sun |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.14896v1.png"> |[Paper](https://arxiv.org/abs/2508.14896)|[//]: #10/01
+|[DLLMQuant: Quantizing Diffusion-based Large Language Models](https://arxiv.org/abs/2508.14090) <br> Chen Xu, Dawei Yang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.14090v2.png"> |[Paper](https://arxiv.org/abs/2508.14090)|[//]: #10/01
+
+### Privacy and Safety
+[🔝 Back to Top](#quick-links)
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
+|[The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs](https://arxiv.org/abs/2507.11097) <br> Zichen Wen, Jiashu Qu, Dongrui Liu, Zhiyuan Liu, Ruixi Wu, Yicun Yang, Xiangqi Jin, Haoyun Xu, Xuyang Liu, Weijia Li, Chaochao Lu, Jing Shao, Conghui He, Linfeng Zhang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2507.11097v1.png"> |[Paper](https://arxiv.org/abs/2507.11097)|[//]: #10/01
+|[Jailbreaking Large Language Diffusion Models: Revealing Hidden Safety Flaws in Diffusion-Based Text Generation](https://arxiv.org/abs/2507.19227) <br> Yuanhe Zhang, Fangzhou Xie, Zhenhong Zhou, Zherui Li, Hao Chen, Kun Wang, Yufei Guo |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2507.19227v1.png"> |[Paper](https://arxiv.org/abs/2507.19227)|[//]: #10/01
+|[Where to Start Alignment? Diffusion Large Language Model May Demand a Distinct Position](https://arxiv.org/abs/2508.12398) <br> Zhixin Xie, Xurui Song, Jun Luo |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2508.12398v1.png"> |[Paper](https://arxiv.org/abs/2508.12398)|[//]: #10/01
 
 ### Applications
 
