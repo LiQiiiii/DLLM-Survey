@@ -40,6 +40,14 @@ This repository is for our paper:
   <strong>Figure 2. A timeline of existing dLLMs and dMLLMs in recent years.</strong>
 </p>
 
+## Citation
+```
+@article{yu2025discrete,
+  title={Discrete Diffusion in Large Language and Multimodal Models: A Survey},
+  author={Yu, Runpeng and Li, Qi and Wang, Xinchao},
+  journal={arXiv preprint arXiv:2506.13759},
+  year={2025}
+}
 
 ---
 > 🌟 If you find this resource helpful, please consider to star this repository and cite our [work](#citation)!
@@ -418,13 +426,6 @@ This repository is for our paper:
 * Open-dLLM: https://github.com/pengzhangzhi/Open-dLLM
 * dllm-trainer: https://github.com/ZHZisZZ/dllm-trainer/tree/main
 
-## Citation
-```
-@article{yu2025discrete,
-  title={Discrete Diffusion in Large Language and Multimodal Models: A Survey},
-  author={Yu, Runpeng and Li, Qi and Wang, Xinchao},
-  journal={arXiv preprint arXiv:2506.13759},
-  year={2025}
-}
+
 
 ```
