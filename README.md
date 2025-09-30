@@ -48,6 +48,7 @@ This repository is for our paper:
   journal={arXiv preprint arXiv:2506.13759},
   year={2025}
 }
+```
 
 ---
 > 🌟 If you find this resource helpful, please consider to star this repository and cite our [work](#citation)!
@@ -425,7 +426,3 @@ This repository is for our paper:
 ### Toolkits
 * Open-dLLM: https://github.com/pengzhangzhi/Open-dLLM
 * dllm-trainer: https://github.com/ZHZisZZ/dllm-trainer/tree/main
-
-
-
-```
