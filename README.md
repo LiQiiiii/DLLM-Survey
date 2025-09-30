@@ -143,6 +143,9 @@ This repository is for our paper:
 
 
 ### Modeling Language Diffusion
+[🔝 Back to Top](#quick-links)
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
 |[Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models](https://arxiv.org/abs/2503.09573) <br> Marianne Arriola, Aaron Gokaslan, Justin T. Chiu, Zhihan Yang, Zhixuan Qi, Jiaqi Han, Subham Sekhar Sahoo, Volodymyr Kuleshov |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2503.09573v3.png"> |[Paper](https://arxiv.org/abs/2503.09573)|[//]: #09/30
 |[Any-Order Flexible Length Masked Diffusion](https://arxiv.org/abs/2509.01025) <br> Jaeyeon Kim, Lee Cheuk-Kit, Carles Domingo-Enrich, Yilun Du, Sham Kakade, Timothy Ngotiaoco, Sitan Chen, Michael Albergo |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2509.01025v2.png"> |[Paper](https://arxiv.org/abs/2509.01025)|[//]: #09/30
 |[Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking](https://arxiv.org/abs/2505.18495) <br> Chen-Hao Chao, Wei-Fang Sun, Hanwen Liang, Chun-Yi Lee, Rahul G. Krishnan |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2505.18495v1.png"> |[Paper](https://arxiv.org/abs/2505.18495)|[//]: #09/30
