@@ -119,6 +119,9 @@ This repository is for our paper:
 
 
 #### Continuous Time Discrete Denoising Models
+[🔝 Back to Top](#quick-links)
+| Title & Authors | Introduction | Links |
+|:--|  :----: | :---:|
 |[A Continuous Time Framework for Discrete Denoising Models](https://arxiv.org/abs/2205.14987) <br> Andrew Campbell, Joe Benton, Valentin De Bortoli, Tom Rainforth, George Deligiannidis, Arnaud Doucet |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2205.14987v2.png"> |[Paper](https://arxiv.org/abs/2205.14987)|[//]: #09/30
 
 
