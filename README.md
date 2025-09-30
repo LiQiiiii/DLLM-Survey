@@ -63,7 +63,7 @@ This repository is for our paper:
   - [Continuous Time Discrete Denoising Models](#continuous-time-discrete-denoising-models)
   - [Concrete Score](#concrete-score)
   - [Reparameterized Discrete Diffusion Model](#reparameterized-discrete-diffusion-model)
-- [Modeling Language Diffusion] (#modeling-language-diffusion)
+- [Modeling Language Diffusion](#modeling-language-diffusion)
 - [Representative Model](#representative-model)
   - [Discrete Diffusion Models around 1B](#discrete-diffusion-models-around-1b)
   - [Large Diffusion Language Models](#large-diffusion-language-models)
