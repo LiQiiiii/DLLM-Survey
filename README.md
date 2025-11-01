@@ -256,6 +256,7 @@ This repository is for our paper:
 | Title & Authors | Introduction | Links |
 |:--|  :----: | :---:|
 |[Distillation of Discrete Diffusion through Dimensional Correlations](https://arxiv.org/abs/2410.08709) <br> Satoshi Hayakawa, Yuhta Takida, Masaaki Imaizumi, Hiromi Wakaki, Yuki Mitsufuji |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2410.08709v4.png"> |[Paper](https://arxiv.org/abs/2410.08709)|[//]: #07/07
+|[dParallel: Learnable Parallel Decoding for dLLMs](https://arxiv.org/abs/2509.26488) <br> Zigeng Chen, Gongfan Fang, Xinyin Ma, Ruonan Yu, Xinchao Wang |<img width="1002" alt="image" src="https://paper-assets.alphaxiv.org/image/2509.26488v1.png"> |[Paper](https://arxiv.org/abs/2509.26488)|[//]: #11/01
 
 #### Reinforcement Learning
 [🔝 Back to Top](#quick-links)
