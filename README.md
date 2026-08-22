@@ -45,7 +45,7 @@ This repository is for our paper:
 @article{yu2025discrete,
   title={Discrete Diffusion in Large Language and Multimodal Models: A Survey},
   author={Yu, Runpeng and Li, Qi and Wang, Xinchao},
-  journal={TMLR},
+  journal={Transactions on Machine Learning Research},
   year={2026}
 }
 ```
