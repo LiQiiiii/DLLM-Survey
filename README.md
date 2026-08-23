@@ -26,7 +26,7 @@ This repository is for our paper:
 
 > **[Discrete Diffusion in Large Language and Multimodal Models: A Survey](https://arxiv.org/pdf/2506.13759)** \
 > [Runpeng Yu*](https://scholar.google.ca/citations?user=sMgjdygAAAAJ&hl=en)<sup>1</sup>, [Qi Li*](https://scholar.google.ca/citations?user=gsV-g2wAAAAJ&hl=en)<sup>1</sup>, [Xinchao Wang](https://scholar.google.ca/citations?user=w69Buq0AAAAJ&hl=en)<sup>†1</sup> \
-> Transactions on Machine Learning Research \
+> *Transactions on Machine Learning Research* \
 > <sup>1</sup>National University of Singapore, Singapore \
 > <sup>*</sup>Equal contribution, random order. \
 > <sup>†</sup>Corresponding author: xinchao@nus.edu.sg
