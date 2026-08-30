@@ -112,6 +112,7 @@ This repository is for our paper:
 
 #### Discrete Diffusion Model and Transition Matrix
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Deep unsupervised learning using nonequilibrium thermodynamics](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) <br> Sohl-Dickstein, Jascha, Eric Weiss, Niru Maheswaranathan, Surya Ganguli |[Paper](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf)|[//]: #06/16
@@ -122,6 +123,7 @@ This repository is for our paper:
 
 #### Simplified Masked Diffusion Model
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Simple and Effective Masked Diffusion Language Models](https://arxiv.org/pdf/2406.07524) <br> Subham Sekhar Sahoo, Marianne Arriola, Yair Schiff, Aaron Gokaslan, Edgar Marroquin, Justin T Chiu, Alexander Rush, Volodymyr Kuleshov |[Paper](https://arxiv.org/pdf/2406.07524)|[//]: #06/16
@@ -130,6 +132,7 @@ This repository is for our paper:
 
 #### Continuous Time Discrete Denoising Models
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[A Continuous Time Framework for Discrete Denoising Models](https://arxiv.org/abs/2205.14987) <br> Andrew Campbell, Joe Benton, Valentin De Bortoli, Tom Rainforth, George Deligiannidis, Arnaud Doucet |[Paper](https://arxiv.org/abs/2205.14987)|[//]: #09/30
@@ -137,6 +140,7 @@ This repository is for our paper:
 
 #### Concrete Score
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Concrete Score Matching: Generalized Score Matching for Discrete Data](https://papers.nips.cc/paper_files/paper/2022/file/df04a35d907e894d59d4eab1f92bc87b-Supplemental-Conference.pdf) <br> Chenlin Meng, Kristy Choi, Jiaming Song, Stefano Ermon |[Paper](https://papers.nips.cc/paper_files/paper/2022/file/df04a35d907e894d59d4eab1f92bc87b-Supplemental-Conference.pdf)|[//]: #06/17
@@ -149,6 +153,7 @@ This repository is for our paper:
 
 #### Reparameterized Discrete Diffusion Model
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[A Reparameterized Discrete Diffusion Model for Text Generation](https://arxiv.org/pdf/2302.05737) <br> Lin Zheng, Jianbo Yuan, Lei Yu, Lingpeng Kong |[Paper](https://arxiv.org/pdf/2302.05737)|[//]: #06/16
@@ -157,6 +162,7 @@ This repository is for our paper:
 
 ### Modeling Language Diffusion
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models](https://arxiv.org/abs/2503.09573) <br> Marianne Arriola, Aaron Gokaslan, Justin T. Chiu, Zhihan Yang, Zhixuan Qi, Jiaqi Han, Subham Sekhar Sahoo, Volodymyr Kuleshov |[Paper](https://arxiv.org/abs/2503.09573)|[//]: #09/30
@@ -171,6 +177,7 @@ This repository is for our paper:
 
 #### Discrete Diffusion Models around 1B
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Structured Denoising Diffusion Models in Discrete State-Spaces](https://arxiv.org/abs/2107.03006) <br> Jacob Austin, Daniel D. Johnson, Jonathan Ho, Daniel Tarlow, Rianne van den Berg |[Paper](https://arxiv.org/abs/2107.03006)|[//]: #06/17
@@ -188,6 +195,7 @@ This repository is for our paper:
 
 #### Large Diffusion Language Models
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Large Language Diffusion Models](https://arxiv.org/abs/2502.09992) <br> Shen Nie, Fengqi Zhu, Zebin You, Xiaolu Zhang, Jingyang Ou, Jun Hu, Jun Zhou, Yankai Lin, Ji-Rong Wen, Chongxuan Li |[Paper](https://arxiv.org/abs/2502.09992)|[//]: #06/17
@@ -203,6 +211,7 @@ This repository is for our paper:
 
 #### Large Diffusion Multimodal Models
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding](https://arxiv.org/abs/2505.16990) <br> Runpeng Yu, Xinyin Ma, Xinchao Wang |[Paper](https://arxiv.org/abs/2505.16990)|[//]: #06/17
@@ -213,6 +222,7 @@ This repository is for our paper:
 
 #### Large Unified Models
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[MMaDA: Multimodal Large Diffusion Language Models](https://arxiv.org/abs/2505.15809) <br> Ling Yang, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang |[Paper](https://arxiv.org/abs/2505.15809)|[//]: #06/17
@@ -223,6 +233,7 @@ This repository is for our paper:
 
 #### Initialization Technique
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models](https://arxiv.org/abs/2211.15029) <br> Zhengfu He, Tianxiang Sun, Kuanning Wang, Xuanjing Huang, Xipeng Qiu |[Paper](https://arxiv.org/abs/2211.15029)|[//]: #06/17
@@ -232,6 +243,7 @@ This repository is for our paper:
 
 #### Complementary Masking Technique
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[LaViDa: A Large Diffusion Language Model for Multimodal Understanding](https://arxiv.org/abs/2505.16839) <br> Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover |[Paper](https://arxiv.org/abs/2505.16839)|[//]: #06/17
@@ -239,6 +251,7 @@ This repository is for our paper:
 
 #### Masking Scheduling Technique
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Structured denoising diffusion models in discrete state-spaces](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) <br> Austin, Jacob, Daniel D. Johnson, Jonathan Ho, Daniel Tarlow, Rianne Van Den Berg |[Paper](https://proceedings.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf)|[//]: #06/16
@@ -248,12 +261,14 @@ This repository is for our paper:
 
 #### Reweighting Technique
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Beyond autoregression: Discrete diffusion for complex reasoning and planning](https://arxiv.org/abs/2410.14157) <br> Jiacheng Ye, Jiahui Gao, Shansan Gong, Lin Zheng, Xin Jiang, Zhenguo Li, Lingpeng Kong |[Paper](https://arxiv.org/abs/2410.14157)|[//]: #07/07
 
 #### Distillation
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Distillation of Discrete Diffusion through Dimensional Correlations](https://arxiv.org/abs/2410.08709) <br> Satoshi Hayakawa, Yuhta Takida, Masaaki Imaizumi, Hiromi Wakaki, Yuki Mitsufuji |[Paper](https://arxiv.org/abs/2410.08709)|[//]: #07/07
@@ -261,6 +276,7 @@ This repository is for our paper:
 
 #### Reinforcement Learning
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[MMaDA: Multimodal Large Diffusion Language Models](https://arxiv.org/abs/2505.15809) <br> Ling Yang, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang |[Paper](https://arxiv.org/abs/2505.15809)|[//]: #06/17
@@ -272,6 +288,7 @@ This repository is for our paper:
 
 #### Training-Testing Input Discrepancy
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Addressing the Training-Inference Discrepancy in Discrete Diffusion for Text Generation](https://aclanthology.org/2025.coling-main.477/) <br> Masaki Asada, Makoto Miwa |[Paper](https://aclanthology.org/2025.coling-main.477/)|[//]: #07/07
@@ -283,6 +300,7 @@ This repository is for our paper:
 
 #### Unmasking Techniques
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Dream 7b](https://hkunlp.github.io/blog/2025/dream/) <br> Jiacheng Ye*, Zhihui Xie*, Lin Zheng*, Jiahui Gao*, Zirui Wu, Xin Jiang, Zhenguo Li, Lingpeng Kong |[Paper](https://hkunlp.github.io/blog/2025/dream/)|[//]: #06/17
@@ -297,6 +315,7 @@ This repository is for our paper:
 
 #### Remasking Techniques 
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Remasking Discrete Diffusion Models with Inference-Time Scaling](https://arxiv.org/abs/2503.00307) <br> Guanghan Wang, Yair Schiff, Subham Sekhar Sahoo, Volodymyr Kuleshov |[Paper](https://arxiv.org/abs/2503.00307)|[//]: #06/17
@@ -306,6 +325,7 @@ This repository is for our paper:
 
 #### Prefilling and Caching Technique
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding](https://arxiv.org/abs/2505.16990) <br> Runpeng Yu, Xinyin Ma, Xinchao Wang |[Paper](https://arxiv.org/abs/2505.16990)|[//]: #06/17
@@ -319,6 +339,7 @@ This repository is for our paper:
 
 #### Guidance Technique
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 [Guided Transfer Learning for Discrete Diffusion Models](https://arxiv.org/abs/2512.10877) <br> Julian Kleutgens, Claudio Battiloro, Lingkai Kong, Benjamin Grewe, Francesca Dominici, Mauricio Tec |[Github](https://github.com/juliankleutgens/Guided-Transfer-Learning-for-Discrete-Diffusion-Models) <br> [Paper](https://arxiv.org/abs/2512.10877)|[//]: #04/03
@@ -329,6 +350,10 @@ This repository is for our paper:
 
 
 #### Sampling Technique
+[🔝 Back to Top](#quick-links)
+
+| Title & Authors | Links |
+|:--|:---:|
 |[Diffusion Language Models Know the Answer Before Decoding](https://arxiv.org/abs/2508.19982) <br> Pengxiang Li, Yefan Zhou, Dilxat Muhtar, Lu Yin, Shilin Yan, Li Shen, Yi Liang, Soroush Vosoughi, Shiwei Liu |[Paper](https://arxiv.org/abs/2508.19982)|[//]: #10/01
 |[Thinking Inside the Mask: In-Place Prompting in Diffusion LLMs](https://arxiv.org/abs/2508.10736) <br> Xiangqi Jin, Yuxuan Wang, Yifeng Gao, Zichen Wen, Biqing Qi, Dongrui Liu, Linfeng Zhang |[Paper](https://arxiv.org/abs/2508.10736)|[//]: #10/01
 |[Inference-Time Scaling of Diffusion Language Models with Particle Gibbs Sampling](https://arxiv.org/abs/2507.08390) <br> Meihua Dang, Jiaqi Han, Minkai Xu, Kai Xu, Akash Srivastava, Stefano Ermon |[Paper](https://arxiv.org/abs/2507.08390)|[//]: #10/01
@@ -336,21 +361,34 @@ This repository is for our paper:
 
 
 #### Context Length Extension
+[🔝 Back to Top](#quick-links)
+
+| Title & Authors | Links |
+|:--|:---:|
 |[LongLLaDA: Unlocking Long Context Capabilities in Diffusion LLMs](https://arxiv.org/abs/2506.14429) <br> Xiaoran Liu, Zhigeng Liu, Zengfeng Huang, Qipeng Guo, Ziwei He, Xipeng Qiu |[Paper](https://arxiv.org/abs/2506.14429)|[//]: #10/01
 
 
 #### Sparse Computation
+[🔝 Back to Top](#quick-links)
+
+| Title & Authors | Links |
+|:--|:---:|
 |[Sparse-dLLM: Accelerating Diffusion LLMs with Dynamic Cache Eviction](https://arxiv.org/abs/2508.02558) <br> Yuerong Song, Xiaoran Liu, Ruixiao Li, Zhigeng Liu, Zengfeng Huang, Qipeng Guo, Ziwei He, Xipeng Qiu |[Paper](https://arxiv.org/abs/2508.02558)|[//]: #10/01
 |[DPad: Efficient Diffusion Language Models with Suffix Dropout](https://arxiv.org/abs/2508.14148) <br> Xinhua Chen, Sitao Huang, Cong Guo, Chiyue Wei, Yintao He, Jianyi Zhang, Hai "Helen" Li, Yiran Chen |[Paper](https://arxiv.org/abs/2508.14148)|[//]: #10/01
 |[Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing](https://arxiv.org/abs/2508.09192) <br> Xu Wang, Chenkai Xu, Yijie Jin, Jiachun Jin, Hao Zhang, Zhijie Deng |[Paper](https://arxiv.org/abs/2508.09192)|[//]: #10/01
 
 
 #### Response Length Control
+[🔝 Back to Top](#quick-links)
+
+| Title & Authors | Links |
+|:--|:---:|
 |[Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models](https://arxiv.org/abs/2508.00819) <br> Jinsong Li, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Jiaqi Wang, Dahua Lin |[Paper](https://arxiv.org/abs/2508.00819)|[//]: #10/01
 
 
 ### Quantization
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Quantization Meets dLLMs: A Systematic Study of Post-training Quantization for Diffusion LLMs](https://arxiv.org/abs/2508.14896) <br> Haokun Lin, Haobo Xu, Yichen Wu, Ziyu Guo, Renrui Zhang, Zhichao Lu, Ying Wei, Qingfu Zhang, Zhenan Sun |[Paper](https://arxiv.org/abs/2508.14896)|[//]: #10/01
@@ -358,6 +396,7 @@ This repository is for our paper:
 
 ### Privacy and Safety
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Every Step Counts: Decoding Trajectories as Authorship Fingerprints of dLLMs](https://arxiv.org/abs/2510.05148) <br> Qi Li, Runpeng Yu, Haiquan Lu, Xinchao Wang |[Paper](https://arxiv.org/abs/2510.05148)|[//]: #11/01
@@ -369,6 +408,7 @@ This repository is for our paper:
 
 #### Text Generation and Style Control
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Fine-grained Text Style Transfer with Diffusion-Based Language Models](https://aclanthology.org/2023.repl4nlp-1.6/) <br> Yiwei Lyu, Tiange Luo, Jiacheng Shi, Todd Hollon, Honglak Lee |[Paper](https://aclanthology.org/2023.repl4nlp-1.6/)|[//]: #06/17
@@ -379,6 +419,7 @@ This repository is for our paper:
 
 #### Text Editing and Summarization
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[EdiText: Controllable Coarse-to-Fine Text Editing with Diffusion Language Models](https://arxiv.org/abs/2502.19765) <br> Che Hyun Lee, Heeseung Kim, Jiheum Yeom, Sungroh Yoon |[Paper](https://arxiv.org/abs/2502.19765)|[//]: #06/17
@@ -389,6 +430,7 @@ This repository is for our paper:
 
 #### Sentiment Analysis and Data Augmentation
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[CDAˆ2: Counterfactual Diffusion Augmentation for Cross-Domain Adaptation in Low-Resource Sentiment Analysis](https://aclanthology.org/2025.coling-main.6/) <br> Dancheng Xin, Kaiqi Zhao, Jingyun Sun, Yang Li |[Paper](https://aclanthology.org/2025.coling-main.6/)|[//]: #06/17
@@ -397,6 +439,7 @@ This repository is for our paper:
 
 #### Knowledge and Reasoning
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[Diffusion of Thoughts: Chain-of-Thought Reasoning in Diffusion Language Models](https://arxiv.org/abs/2402.07754) <br> Jiacheng Ye, Shansan Gong, Liheng Chen, Lin Zheng, Jiahui Gao, Han Shi, Chuan Wu, Xin Jiang, Zhenguo Li, Wei Bi, Lingpeng Kong |[Paper](https://arxiv.org/abs/2402.07754)|[//]: #06/17
@@ -408,6 +451,7 @@ This repository is for our paper:
 
 #### Vision and Multimodal 
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[DiffVLA: Vision-Language Guided Diffusion Planning for Autonomous Driving](https://arxiv.org/abs/2505.19381) <br> Anqing Jiang, Yu Gao, Zhigang Sun, Yiru Wang, Jijun Wang, Jinghao Chai, Qian Cao, Yuweng Heng, Hao Jiang, Yunda Dong, Zongzheng Zhang, Xianda Guo, Hao Sun, Hao Zhao |[Paper](https://arxiv.org/abs/2505.19381)|[//]: #06/17
@@ -418,6 +462,7 @@ This repository is for our paper:
 
 #### Biological and Drug Discovery
 [🔝 Back to Top](#quick-links)
+
 | Title & Authors | Links |
 |:--|:---:|
 |[MolEditRL: Structure-Preserving Molecular Editing via Discrete Diffusion and Reinforcement Learning](https://arxiv.org/abs/2505.20131) <br> Yuanxin Zhuang, Dazhong Shen, Ying Sun |[Paper](https://arxiv.org/abs/2505.20131)|[//]: #06/17
