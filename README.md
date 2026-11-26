@@ -208,6 +208,7 @@ This repository is for our paper:
 |[Dream-Coder 7B: An Open Diffusion Language Model for Code](https://arxiv.org/abs/2509.01142) <br> Zhihui Xie, Jiacheng Ye, Lin Zheng, Jiahui Gao, Jingwei Dong, Zirui Wu, Xueliang Zhao, Shansan Gong, Xin Jiang, Zhenguo Li, Lingpeng Kong |[Paper](https://arxiv.org/abs/2509.01142)|[//]: #09/30
 |[DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation](https://arxiv.org/abs/2506.20639) <br> Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, Yizhe Zhang |[Paper](https://arxiv.org/abs/2506.20639)|[//]: #09/30
 |[Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference](https://arxiv.org/abs/2508.02193) <br> Yuxuan Song, Zheng Zhang, Cheng Luo, Pengyang Gao, Fan Xia, Hao Luo, Zheng Li, Yuehang Yang, Hongli Yu, Xingwei Qu, Yuwei Fu, Jing Su, Ge Zhang, Wenhao Huang, Mingxuan Wang, Lin Yan, Xiaoying Jia, Jingjing Liu, Wei-Ying Ma, Ya-Qin Zhang, Yonghui Wu, Hao Zhou |[Paper](https://arxiv.org/abs/2508.02193)|[//]: #09/30
+|[On the Importance of Hidden-State Refinement in Masked Diffusion Language Models](https://arxiv.org/abs/2611.32416) <br> Linhao Zhong, Bozhen Fang, Xuehao Wang, Zekai Luo, Liyang Li, Hourong Li, Chenchen Jing, Hao Chen |[Github](https://github.com/zhongzero/Recurrent-DLLM) <br> [Paper](https://arxiv.org/abs/2611.32416)|[//]: #11/26
 
 #### Large Diffusion Multimodal Models
 [🔝 Back to Top](#quick-links)
